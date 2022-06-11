@@ -7,7 +7,6 @@ import CustomLink from "../CustomLink/CustomLink";
 
 export default function Header() {
   const [open, setopen] = useState(false);
-  console.log(open);
 
   return (
     <>
