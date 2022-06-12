@@ -2,7 +2,6 @@ import React, { useState } from "react";
 // import Logo from "./logo192.png";
 import Logo from "../../assets/logo.png";
 import { MenuAlt1Icon, XIcon } from "@heroicons/react/solid";
-import { Link } from "react-router-dom";
 import CustomLink from "../CustomLink/CustomLink";
 
 export default function Header() {

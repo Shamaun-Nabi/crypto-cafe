@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Audio, TailSpin } from "react-loader-spinner";
+import { Audio,Circles } from "react-loader-spinner";
 import CoinCard from "../CoinCard/CoinCard";
 
 export default function Coins() {
@@ -24,7 +24,7 @@ export default function Coins() {
     <>
       {loading ? (
         <div className="flex justify-center items-center">
-          <TailSpin width="50" heigth="50"   color="#FFFFFF" />
+          <Circles width="50" heigth="50"   color="#FFFFFF" />
         </div>
       ) : (
         <div className="flex items-center justify-center">
